@@ -11,7 +11,7 @@ package edu.misena.senaviewer.model;
         boolean viewed;
         int timeviwed;
 
-        public Movie(String title, String genre, String creator, int  duracion, short year){
+        public movie(String title, String genre, String creator, int  duracion, short year){
             this.title = title;
             this.genre = genre;
             this.creator = creator;
