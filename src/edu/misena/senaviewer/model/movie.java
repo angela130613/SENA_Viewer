@@ -68,6 +68,11 @@ package edu.misena.senaviewer.model;
             return viewed;
         }
 
+        public void setViewed(boolean viewed) {
+            this.viewed = viewed;
+        }
+
+
 
 
 
