@@ -33,6 +33,10 @@ public class Main {
                     break;
                 case 6:
                     break;
+                case 0:
+                    System.out.println("Saliste de la aplicacion");
+                    break;
+
 
 
 
