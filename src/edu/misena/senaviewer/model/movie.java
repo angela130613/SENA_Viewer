@@ -76,6 +76,10 @@ package edu.misena.senaviewer.model;
             return timeviwed;
         }
 
+        public void setTimeViewed(int timeViewed) {
+            this.timeviwed = timeViewed;
+}
+
 
 
 
