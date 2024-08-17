@@ -6,5 +6,6 @@ public class magazine {
     int id;
     String title;
     Date editorialDate;
+    String editorial;
 
 }
