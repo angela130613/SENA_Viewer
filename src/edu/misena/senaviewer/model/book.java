@@ -1,4 +1,6 @@
 package edu.misena.senaviewer.model;
 
-public class book {
-}
+import java.util.Date;
+import java.util.List;
+
+
