@@ -28,7 +28,7 @@ package edu.misena.senaviewer.model;
             this.id = id;
         }
 
-        {
+        public String getTitle() {
             return title;
         }
 
