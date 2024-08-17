@@ -24,4 +24,9 @@ package edu.misena.senaviewer.model;
             return id;
         }
 
+        public void setId(int id) {
+            this.id = id;
+        }
+
+
     }
