@@ -1,6 +1,5 @@
 package edu.misena.senaviewer.model;
 
-
     public class movie {
         int id;
         String title;
@@ -17,5 +16,7 @@ package edu.misena.senaviewer.model;
             this.creator = creator;
             this.duracion = duracion;
             this.year = year;
+            this.viewed = false;
+            this.timeviwed = 0;
         }
     }
