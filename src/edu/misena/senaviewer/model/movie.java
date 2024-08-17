@@ -52,6 +52,11 @@ package edu.misena.senaviewer.model;
             return duracion;
         }
 
+        public void setDuration(int duration) {
+            this.duracion = duration;
+        }
+
+
 
 
 
