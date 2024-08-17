@@ -36,6 +36,11 @@ package edu.misena.senaviewer.model;
             this.title = title;
         }
 
+        public String getGenre() {
+            return genre;
+        }
+
+
 
 
 
