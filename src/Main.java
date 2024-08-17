@@ -17,6 +17,14 @@ public class Main {
 
         while (option != 0){
             showMainMenu();
+            option = scanner.nextInt();
+
+            switch (option){
+                case 1:
+                    manageMovies();
+                    break;
+
+            }
         }
 
     }
