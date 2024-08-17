@@ -6,7 +6,7 @@ package edu.misena.senaviewer.model;
         String genre;
         String creator;
         int duracion;
-        short year;
+        int year;
         boolean viewed;
         int timeviwed;
 
@@ -59,6 +59,11 @@ package edu.misena.senaviewer.model;
         public int getYear() {
             return year;
         }
+
+        public void setYear(int year) {
+            this.year = year;
+        }
+
 
 
 
