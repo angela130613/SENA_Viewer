@@ -56,6 +56,11 @@ package edu.misena.senaviewer.model;
             this.duracion = duration;
         }
 
+        public int getYear() {
+            return year;
+        }
+
+
 
 
 
