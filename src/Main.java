@@ -39,15 +39,9 @@ public class Main {
                 default:
                     System.out.println("la opcion que ingreso es invalida");
                     break;
-
-
-
-
-
-
-
             }
         }
+        scanner.close();
 
     }
 }
