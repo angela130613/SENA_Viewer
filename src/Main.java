@@ -36,6 +36,9 @@ public class Main {
                 case 0:
                     System.out.println("Saliste de la aplicacion");
                     break;
+                default:
+                    System.out.println("la opcion que ingreso es invalida");
+                    break;
 
 
 
