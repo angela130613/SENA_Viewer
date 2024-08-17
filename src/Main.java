@@ -23,6 +23,9 @@ public class Main {
                 case 1:
                     manageMovies();
                     break;
+                case 2:
+                    break;
+
 
             }
         }
