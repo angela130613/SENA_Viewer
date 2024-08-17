@@ -32,6 +32,11 @@ package edu.misena.senaviewer.model;
             return title;
         }
 
+        public void setTitle(String title) {
+            this.title = title;
+        }
+
+
 
 
     }
