@@ -10,4 +10,10 @@ public class magazine {
     String editorial;
     List<String> authors;
 
+    public magazine(String title, Date editorialDate, String editorial){
+        this.title = title;
+        this.editorialDate = editorialDate;
+        this.editorial = editorial;
+    }
+
 }
