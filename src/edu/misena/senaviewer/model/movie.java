@@ -28,5 +28,10 @@ package edu.misena.senaviewer.model;
             this.id = id;
         }
 
+        {
+            return title;
+        }
+
+
 
     }
