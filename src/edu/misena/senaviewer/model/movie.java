@@ -19,4 +19,9 @@ package edu.misena.senaviewer.model;
             this.viewed = false;
             this.timeviwed = 0;
         }
+
+        public int getId() {
+            return id;
+        }
+
     }
