@@ -64,6 +64,11 @@ package edu.misena.senaviewer.model;
             this.year = year;
         }
 
+        public boolean isViewed() {
+            return viewed;
+        }
+
+
 
 
 
