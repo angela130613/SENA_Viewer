@@ -9,5 +9,11 @@ public class chapter {
     int timeViwed;
     int sessionNumber;
 
+    public  chapter(String tittle, int duration, int year){
+        this.tittle = tittle;
+        this.duration = duration;
+        this.year = year;
+    }
+
 
 }
