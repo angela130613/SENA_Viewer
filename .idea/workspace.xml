@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="static void and static private void">
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment=" private static void viewMovies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1723923997358</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary=" private static void viewMovies">
+      <option name="closed" value="true" />
+      <created>1723952768675</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1723952768675</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" new public String getTitle" />
     <MESSAGE value=" public void setTitle(String title)" />
     <MESSAGE value="  public String getGenre" />
     <MESSAGE value="  public String getCreator" />
@@ -438,6 +445,7 @@
     <MESSAGE value="static void showMainMenu" />
     <MESSAGE value="static void manageMovies" />
     <MESSAGE value="static void and static private void" />
-    <option name="LAST_COMMIT_MESSAGE" value="static void and static private void" />
+    <MESSAGE value=" private static void viewMovies" />
+    <option name="LAST_COMMIT_MESSAGE" value=" private static void viewMovies" />
   </component>
 </project>
