@@ -6,9 +6,8 @@ import java.util.Scanner;
 
 
 
-
 public class Main {
-    static List<Object> movies = new ArrayList<Object>();
+    static List<movie> movies = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -78,9 +77,6 @@ public class Main {
         }
     }
 
-    private static void viewMovies() {
-    }
-
     private static void addMovie() {
         System.out.print("Enter movie title: ");
         String title = scanner.nextLine();
@@ -99,13 +95,32 @@ public class Main {
         scanner.nextLine(); // Consumir la nueva línea
 
         // Crear una nueva instancia de Movie
-        Object movie = new movie(title, genre, creator, duration, year);
+        movie movie = new movie(title, genre, creator, duration, (short) year);
 
         // Agregar la película a la lista
         movies.add(movie);
         System.out.println("Movie added successfully!");
 }
-}
+
+    private static void viewMovies() {
+        if (movies.isEmpty()) {
+            System.out.println("Peliculas no encontradas.");
+        } else {
+            for (movie Movie : movies) {
+                System.out.println("ID: " + Movie.getId());
+                System.out.println("Titulo: " + Movie.getTitle());
+                System.out.println("Genero: " + Movie.getGenre());
+                System.out.println("Creador: " + Movie.getCreator());
+                System.out.println("Duracion: " + Movie.getDuration() + " minutos");
+                System.out.println("Año: " + Movie.getYear());
+                System.out.println("Visto: " + (Movie.isViewed() ? "Si" : "No"));
+                System.out.println("Tiempo Visto: " + Movie.getTimeViewed() + " minutos");
+                System.out.println("----------------------");
+            }
+        }
+    }
+    }
+
 
 
 

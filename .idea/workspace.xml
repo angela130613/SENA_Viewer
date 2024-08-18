@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SENA_Viewer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/chapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/serie.java" afterDir="false" />
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="static void and static private void">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;angela130613&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/angela130613/SENA_Viewer.git&quot;,
+    &quot;accountId&quot;: &quot;462cbb6e-0ba0-46e6-a2cf-036f05ab30f9&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -47,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -62,6 +65,379 @@
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
     </task>
+    <task id="LOCAL-00001" summary="primer commit">
+      <option name="closed" value="true" />
+      <created>1723839444583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723839444583</updated>
+    </task>
+    <task id="LOCAL-00002" summary="public movie">
+      <option name="closed" value="true" />
+      <created>1723839695777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723839695777</updated>
+    </task>
+    <task id="LOCAL-00003" summary="public movie new">
+      <option name="closed" value="true" />
+      <created>1723839723246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723839723246</updated>
+    </task>
+    <task id="LOCAL-00004" summary="public class serie">
+      <option name="closed" value="true" />
+      <created>1723903110553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723903110553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="public class chapter">
+      <option name="closed" value="true" />
+      <created>1723903593889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723903593889</updated>
+    </task>
+    <task id="LOCAL-00006" summary="public class">
+      <option name="closed" value="true" />
+      <created>1723903718105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723903718105</updated>
+    </task>
+    <task id="LOCAL-00007" summary="import Date and import list">
+      <option name="closed" value="true" />
+      <created>1723904417089</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723904417089</updated>
+    </task>
+    <task id="LOCAL-00008" summary="public class book">
+      <option name="closed" value="true" />
+      <created>1723905112336</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723905112336</updated>
+    </task>
+    <task id="LOCAL-00009" summary="public class magazine">
+      <option name="closed" value="true" />
+      <created>1723905448807</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723905448807</updated>
+    </task>
+    <task id="LOCAL-00010" summary="import java.util.Date and editorialDate">
+      <option name="closed" value="true" />
+      <created>1723905520363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723905520363</updated>
+    </task>
+    <task id="LOCAL-00011" summary="String editorial">
+      <option name="closed" value="true" />
+      <created>1723905577417</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723905577417</updated>
+    </task>
+    <task id="LOCAL-00012" summary="List&lt;String&gt; and import java.util.List">
+      <option name="closed" value="true" />
+      <created>1723905801159</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723905801159</updated>
+    </task>
+    <task id="LOCAL-00013" summary="public magazine">
+      <option name="closed" value="true" />
+      <created>1723906033313</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723906033313</updated>
+    </task>
+    <task id="LOCAL-00014" summary="public movie new viewed and timeviwed">
+      <option name="closed" value="true" />
+      <created>1723908430576</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723908430576</updated>
+    </task>
+    <task id="LOCAL-00015" summary="public int getId">
+      <option name="closed" value="true" />
+      <created>1723908766710</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723908766710</updated>
+    </task>
+    <task id="LOCAL-00016" summary=" public void setId(int id)">
+      <option name="closed" value="true" />
+      <created>1723908814049</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723908814049</updated>
+    </task>
+    <task id="LOCAL-00017" summary="  public String getTitle()">
+      <option name="closed" value="true" />
+      <created>1723908888258</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723908888258</updated>
+    </task>
+    <task id="LOCAL-00018" summary=" new public String getTitle">
+      <option name="closed" value="true" />
+      <created>1723908959403</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723908959403</updated>
+    </task>
+    <task id="LOCAL-00019" summary=" public void setTitle(String title)">
+      <option name="closed" value="true" />
+      <created>1723909005962</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723909005962</updated>
+    </task>
+    <task id="LOCAL-00020" summary="  public String getGenre">
+      <option name="closed" value="true" />
+      <created>1723909043501</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723909043501</updated>
+    </task>
+    <task id="LOCAL-00021" summary="  public String getGenre">
+      <option name="closed" value="true" />
+      <created>1723909403637</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723909403637</updated>
+    </task>
+    <task id="LOCAL-00022" summary="  public String getCreator">
+      <option name="closed" value="true" />
+      <created>1723910419358</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723910419358</updated>
+    </task>
+    <task id="LOCAL-00023" summary=" public int getDuration">
+      <option name="closed" value="true" />
+      <created>1723910499096</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723910499096</updated>
+    </task>
+    <task id="LOCAL-00024" summary=" public int setDuration">
+      <option name="closed" value="true" />
+      <created>1723910538819</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723910538819</updated>
+    </task>
+    <task id="LOCAL-00025" summary="   public int getYear">
+      <option name="closed" value="true" />
+      <created>1723910635947</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723910635947</updated>
+    </task>
+    <task id="LOCAL-00026" summary="   public int setYear">
+      <option name="closed" value="true" />
+      <created>1723911043177</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723911043177</updated>
+    </task>
+    <task id="LOCAL-00027" summary="  public boolean isViewed">
+      <option name="closed" value="true" />
+      <created>1723911208586</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723911208586</updated>
+    </task>
+    <task id="LOCAL-00028" summary="   public void setViewed(boolean viewed)">
+      <option name="closed" value="true" />
+      <created>1723911276302</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723911276302</updated>
+    </task>
+    <task id="LOCAL-00029" summary="   public int getTimeViewed">
+      <option name="closed" value="true" />
+      <created>1723911315016</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1723911315016</updated>
+    </task>
+    <task id="LOCAL-00030" summary=" public void setTimeViewed">
+      <option name="closed" value="true" />
+      <created>1723911413249</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723911413249</updated>
+    </task>
+    <task id="LOCAL-00031" summary=" public class Main and void">
+      <option name="closed" value="true" />
+      <created>1723912118394</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912118394</updated>
+    </task>
+    <task id="LOCAL-00032" summary="case1">
+      <option name="closed" value="true" />
+      <created>1723912799967</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912799967</updated>
+    </task>
+    <task id="LOCAL-00033" summary="case2">
+      <option name="closed" value="true" />
+      <created>1723912829538</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912829538</updated>
+    </task>
+    <task id="LOCAL-00034" summary="case3">
+      <option name="closed" value="true" />
+      <created>1723912863160</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912863160</updated>
+    </task>
+    <task id="LOCAL-00035" summary="case4">
+      <option name="closed" value="true" />
+      <created>1723912887449</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912887449</updated>
+    </task>
+    <task id="LOCAL-00036" summary="case5">
+      <option name="closed" value="true" />
+      <created>1723912930898</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912930898</updated>
+    </task>
+    <task id="LOCAL-00037" summary="case6">
+      <option name="closed" value="true" />
+      <created>1723912954658</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912954658</updated>
+    </task>
+    <task id="LOCAL-00038" summary="case0">
+      <option name="closed" value="true" />
+      <created>1723912981397</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1723912981397</updated>
+    </task>
+    <task id="LOCAL-00039" summary="default">
+      <option name="closed" value="true" />
+      <created>1723913002686</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1723913002686</updated>
+    </task>
+    <task id="LOCAL-00040" summary="scanner.close">
+      <option name="closed" value="true" />
+      <created>1723913118855</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1723913118855</updated>
+    </task>
+    <task id="LOCAL-00041" summary="static void showMainMenu">
+      <option name="closed" value="true" />
+      <created>1723913319370</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1723913319370</updated>
+    </task>
+    <task id="LOCAL-00042" summary="static void manageMovies">
+      <option name="closed" value="true" />
+      <created>1723917694860</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1723917694860</updated>
+    </task>
+    <task id="LOCAL-00043" summary="static void and static private void">
+      <option name="closed" value="true" />
+      <created>1723923997358</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1723923997358</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" new public String getTitle" />
+    <MESSAGE value=" public void setTitle(String title)" />
+    <MESSAGE value="  public String getGenre" />
+    <MESSAGE value="  public String getCreator" />
+    <MESSAGE value=" public int getDuration" />
+    <MESSAGE value=" public int setDuration" />
+    <MESSAGE value="   public int getYear" />
+    <MESSAGE value="   public int setYear" />
+    <MESSAGE value="  public boolean isViewed" />
+    <MESSAGE value="   public void setViewed(boolean viewed)" />
+    <MESSAGE value="   public int getTimeViewed" />
+    <MESSAGE value=" public void setTimeViewed" />
+    <MESSAGE value=" public class Main and void" />
+    <MESSAGE value="case1" />
+    <MESSAGE value="case2" />
+    <MESSAGE value="case3" />
+    <MESSAGE value="case4" />
+    <MESSAGE value="case5" />
+    <MESSAGE value="case6" />
+    <MESSAGE value="case0" />
+    <MESSAGE value="default" />
+    <MESSAGE value="scanner.close" />
+    <MESSAGE value="static void showMainMenu" />
+    <MESSAGE value="static void manageMovies" />
+    <MESSAGE value="static void and static private void" />
+    <option name="LAST_COMMIT_MESSAGE" value="static void and static private void" />
   </component>
 </project>
