@@ -89,6 +89,5 @@ public class serie {
         this.sessionQuantity = sessionQuantity;
     }
 
-
 }
 

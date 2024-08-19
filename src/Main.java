@@ -23,6 +23,7 @@ public class Main {
                     manageMovies();
                     break;
                 case 2:
+                    manageSerie();
                     break;
                 case 3:
                     break;
@@ -119,7 +120,29 @@ public class Main {
             }
         }
     }
+
+    static void manageSerie() {
+        System.out.println("Movie");
+        System.out.println("1. Agregar serie");
+        System.out.println("2. Ver serie");
+        System.out.println("Seleciona una opcion");
+        int option = scanner.nextInt();
+
+        switch (option) {
+            case 1:
+                addSerie();
+                break;
+            case 2:
+                viewSerie();
+                break;
+            default:
+
+                System.out.println("Invalid option.");
+                break;
+        }
     }
+
+}
 
 
 
