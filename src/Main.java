@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Main {
     static List<movie> movies = new ArrayList<>();
+    static List<serie> series = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -27,6 +28,7 @@ public class Main {
                     manageSerie();
                     break;
                 case 3:
+                    manageSerie();
                     break;
                 case 4:
                     break;
@@ -166,6 +168,24 @@ public class Main {
         // Agregar la película a la lista
         serie.add(serie);
         System.out.println("Movie added successfully!");
+    }
+
+    private static void viewSerie() {
+        if (serie.isEmpty()) {
+            System.out.println("Peliculas no encontradas.");
+        } else {
+            for (serie Movie : series) {
+                System.out.println("ID: " + serie.getId());
+                System.out.println("Titulo: " + serie.getTitle());
+                System.out.println("Genero: " + serie.getGenre());
+                System.out.println("Creador: " + serie.getCreator());
+                System.out.println("Duracion: " + serie.getDuration() + " minutos");
+                System.out.println("Año: " + serie.getYear());
+                System.out.println("Visto: " + (serie.isViewed() ? "Si" : "No"));
+                System.out.println("Tiempo Visto: " + serie.getTimeViewed() + " minutos");
+                System.out.println("----------------------");
+            }
+        }
     }
 
 }

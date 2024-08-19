@@ -1,60 +1,74 @@
 package edu.misena.senaviewer.model;
 
 public class serie {
-        int id;
-        String title;
-        String genre;
-        String creator;
-        int duration;
-        int year;
+        static int id;
+        static String title;
+        static String genre;
+        static String creator;
+        static int duration;
+        static int year;
         boolean viewed;
-        int timeViewed;
+        static int timeViewed;
         int sessionQuantity;
 
         public serie(String title, String genre, int duration) {
-            this.title = title;
-            this.genre = genre;
-            this.duration = duration;
+            serie.title = title;
+            serie.genre = genre;
+            serie.duration = duration;
+            this.viewed = false;
+
         }
 
-    public int getId() {
+    public static boolean isEmpty() {
+        return false;
+    }
+
+    public static int getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public static int getYear() {
+        return year;
     }
 
-    public String getTitle(){
+    public static boolean isViewed() {
+        return false;
+    }
+
+    public void setId(int id) {
+        serie.id = id;
+    }
+
+    public static String getTitle(){
         return title;
     }
 
     public void setTitle(String title){
-        this.title = title;
+        serie.title = title;
     }
 
-    public String getGenre(){
+    public static String getGenre(){
         return genre;
     }
 
     public void setGenre(String genre){
-            this.genre = genre;
+            serie.genre = genre;
     }
 
-    public String getCreator(){
+    public static String getCreator(){
             return creator;
     }
 
     public void setCreator(String creator){
-            this.creator = creator;
+            serie.creator = creator;
     }
 
-    public int getDuration(){
+    public static int getDuration(){
             return duration;
     }
 
     public void setDuration(int duration){
-            this.duration = duration;
+            serie.duration = duration;
     }
 
     public int getyear(){
@@ -62,7 +76,7 @@ public class serie {
     }
 
     public void  setYear(int year){
-            this.year = year;
+            serie.year = year;
     }
 
     public boolean getviewed(){
@@ -73,12 +87,12 @@ public class serie {
             this.viewed = viewed;
     }
 
-    public int getTimeViewed(){
+    public static int getTimeViewed(){
             return timeViewed;
     }
 
     public void setTimeViewed(int timeViewed){
-            this.timeViewed = timeViewed;
+            serie.timeViewed = timeViewed;
     }
 
     public  int getSessionQuantity(){
