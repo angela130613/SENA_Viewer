@@ -89,5 +89,7 @@ public class serie {
         this.sessionQuantity = sessionQuantity;
     }
 
+    public void add(serie serie) {
+    }
 }
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="serie public void, setters and getters">
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="   private static void addSerie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/serie.java" afterDir="false" />
@@ -426,12 +426,18 @@
       <option name="project" value="LOCAL" />
       <updated>1723955520473</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary=" static void manageSerie">
+      <option name="closed" value="true" />
+      <created>1724097812575</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1724097812575</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="  public String getGenre" />
-    <MESSAGE value="  public String getCreator" />
     <MESSAGE value=" public int getDuration" />
     <MESSAGE value=" public int setDuration" />
     <MESSAGE value="   public int getYear" />
@@ -455,6 +461,8 @@
     <MESSAGE value="static void and static private void" />
     <MESSAGE value=" private static void viewMovies" />
     <MESSAGE value="serie public void, setters and getters" />
-    <option name="LAST_COMMIT_MESSAGE" value="serie public void, setters and getters" />
+    <MESSAGE value=" static void manageSerie" />
+    <MESSAGE value="   private static void addSerie" />
+    <option name="LAST_COMMIT_MESSAGE" value="   private static void addSerie" />
   </component>
 </project>

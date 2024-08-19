@@ -1,4 +1,5 @@
 import edu.misena.senaviewer.model.movie;
+import edu.misena.senaviewer.model.serie;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -140,6 +141,31 @@ public class Main {
                 System.out.println("Invalid option.");
                 break;
         }
+    }
+
+    private static void addSerie() {
+        System.out.print("Enter serie title: ");
+        String title = scanner.nextLine();
+
+        System.out.print("Enter movie genre: ");
+        String genre = scanner.nextLine();
+
+        System.out.print("Enter movie creator: ");
+        String creator = scanner.nextLine();
+
+        System.out.print("Enter movie duration (in minutes): ");
+        int duration = scanner.nextInt();
+
+        System.out.print("Enter movie year: ");
+        int year = scanner.nextInt();
+        scanner.nextLine(); // Consumir la nueva línea
+
+        // Crear una nueva instancia de Movie
+        serie serie = new serie(title, genre, duration);
+
+        // Agregar la película a la lista
+        serie.add(serie);
+        System.out.println("Movie added successfully!");
     }
 
 }
