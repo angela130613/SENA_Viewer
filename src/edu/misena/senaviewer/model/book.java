@@ -59,6 +59,10 @@ public class book {
     public void setIsbn(String isbn){
         this.isbn = isbn;
     }
+
+    public boolean getViewed() {
+        return false;
+    }
 }
 
 

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="  public int getId">
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="manageBook and addBook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +66,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
-    </task>
-    <task id="LOCAL-00002" summary="public movie">
-      <option name="closed" value="true" />
-      <created>1723839695777</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1723839695777</updated>
     </task>
     <task id="LOCAL-00003" summary="public movie new">
       <option name="closed" value="true" />
@@ -458,11 +451,18 @@
       <option name="project" value="LOCAL" />
       <updated>1724251351043</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="manageBook and addBook">
+      <option name="closed" value="true" />
+      <created>1724269209847</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1724269209847</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="   public int setYear" />
     <MESSAGE value="  public boolean isViewed" />
     <MESSAGE value="   public void setViewed(boolean viewed)" />
     <MESSAGE value="   public int getTimeViewed" />
@@ -487,6 +487,7 @@
     <MESSAGE value="private static void viewSerie" />
     <MESSAGE value="new addSerie and viewSerie" />
     <MESSAGE value="  public int getId" />
-    <option name="LAST_COMMIT_MESSAGE" value="  public int getId" />
+    <MESSAGE value="manageBook and addBook" />
+    <option name="LAST_COMMIT_MESSAGE" value="manageBook and addBook" />
   </component>
 </project>

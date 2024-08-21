@@ -20,6 +20,9 @@ package edu.misena.senaviewer.model;
             this.timeviwed = 0;
         }
 
+        public movie(String title, String editorialDate, String editorial, String isbn) {
+        }
+
         public int getId() {
             return id;
         }

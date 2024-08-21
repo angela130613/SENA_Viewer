@@ -1,8 +1,8 @@
+import edu.misena.senaviewer.model.book;
 import edu.misena.senaviewer.model.movie;
 import edu.misena.senaviewer.model.serie;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Main {
     static List<movie> movies = new ArrayList<>();
     static List<serie> series = new ArrayList<>();
-    static List<serie> books = new ArrayList<>();
+    static List<book> books = new ArrayList<book>();
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -85,7 +85,8 @@ public class Main {
 
     private static void addMovie() {
         System.out.print("Enter movie title: ");
-        String title = scanner.nextLine();
+        String title =
+        title = scanner.nextLine();
 
         System.out.print("Enter movie genre: ");
         String genre = scanner.nextLine();
@@ -204,25 +205,42 @@ public class Main {
     }
 
     private static void addBook() {
-        System.out.print("ingre: ");
+        System.out.print("Ingresar el titulo del libro: ");
         String title = scanner.nextLine();
+        title = scanner.nextLine();
 
-        System.out.print("Enter book genre: ");
+        System.out.print("ingresar fecha del editorial del libro: ");
         String editorialDate;
         editorialDate = scanner.nextLine();
 
-        System.out.print("Enter book creator: ");
+        System.out.print("ingresar el editorial del libro : ");
         String editorial = scanner.nextLine();
 
-        System.out.print("Enter movie duration (in minutes): ");
+        System.out.print("ingresar el isbn del libro: ");
         String isbn = scanner.nextLine();
 
         // Crear una nueva instancia de Movie
-        movie movie = new movie(title, editorialDate, creator, duration, (short) year);
+        book book  = new book(title, editorialDate, editorial, isbn);
 
         // Agregar la película a la lista
-        movies.add(movie);
+        books.add(book);
         System.out.println("Movie added successfully!");
+    }
+
+    private static void viewBook() {
+        if (books.isEmpty()) {
+            System.out.println("Libros no encontradas.");
+        } else {
+            for (book book : books) {
+                System.out.println("ID: " + book.getId());
+                System.out.println("Titulo: " + book.getTitle());
+                System.out.println("Fecha de Editorial: " + book.getEditorialDate());
+                System.out.println("Nombre editorial: " + book.getEditorial());
+                System.out.println("isbn: " + book.getIsbn() );
+                System.out.println("Visto: " + (book.getViewed() ? "Si" : "No"));
+                System.out.println("----------------------");
+            }
+        }
     }
 
 }
