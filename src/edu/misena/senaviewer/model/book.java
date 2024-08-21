@@ -19,6 +19,46 @@ public class book {
         this.editorial = editorial;
         this.isbn = isbn;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle(){
+        return title;
+    }
+
+    public void setTitle(String title){
+        this.title = title;
+    }
+
+    public Date getEditorialDate() {
+        return editorialDate;
+    }
+
+    public void setEditorialDate(Date editorialDate){
+        this.editorialDate = editorialDate;
+    }
+
+    public String getEditorial(){
+        return editorial;
+    }
+
+    public void setEditorial(String editorial){
+        this.editorial = editorial;
+    }
+
+    public String getIsbn(){
+        return isbn;
+    }
+
+    public void setIsbn(String isbn){
+        this.isbn = isbn;
+    }
 }
 
 
