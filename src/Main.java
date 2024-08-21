@@ -146,41 +146,35 @@ public class Main {
     }
 
     private static void addSerie() {
-        System.out.print("Enter serie title: ");
+        System.out.print("Ingresar el titulo de la serie: ");
         String title = scanner.nextLine();
+        title = scanner.nextLine();
 
-        System.out.print("Enter movie genre: ");
+        System.out.print("Ingresa: el genero de la Serie: ");
         String genre = scanner.nextLine();
 
-        System.out.print("Enter movie creator: ");
-        String creator = scanner.nextLine();
 
-        System.out.print("Enter movie duration (in minutes): ");
+        System.out.print("Ingresa la duracion en minutos: ");
         int duration = scanner.nextInt();
 
-        System.out.print("Enter movie year: ");
-        int year = scanner.nextInt();
-        scanner.nextLine(); // Consumir la nueva línea
 
         // Crear una nueva instancia de Movie
         serie serie = new serie(title, genre, duration);
 
         // Agregar la película a la lista
-        serie.add(serie);
-        System.out.println("Movie added successfully!");
+        series.add(serie);
+        System.out.println("Serie añadida!!!!");
     }
 
     private static void viewSerie() {
-        if (serie.isEmpty()) {
-            System.out.println("Peliculas no encontradas.");
+        if (series.isEmpty()) {
+            System.out.println("Series no encontradas.");
         } else {
-            for (serie Movie : series) {
+            for (serie Serie : series) {
                 System.out.println("ID: " + serie.getId());
                 System.out.println("Titulo: " + serie.getTitle());
                 System.out.println("Genero: " + serie.getGenre());
-                System.out.println("Creador: " + serie.getCreator());
                 System.out.println("Duracion: " + serie.getDuration() + " minutos");
-                System.out.println("Año: " + serie.getYear());
                 System.out.println("Visto: " + (serie.isViewed() ? "Si" : "No"));
                 System.out.println("Tiempo Visto: " + serie.getTimeViewed() + " minutos");
                 System.out.println("----------------------");
