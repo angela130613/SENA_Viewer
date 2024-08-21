@@ -2,6 +2,7 @@ import edu.misena.senaviewer.model.movie;
 import edu.misena.senaviewer.model.serie;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -10,6 +11,7 @@ import java.util.Scanner;
 public class Main {
     static List<movie> movies = new ArrayList<>();
     static List<serie> series = new ArrayList<>();
+    static List<serie> books = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -28,7 +30,7 @@ public class Main {
                     manageSerie();
                     break;
                 case 3:
-                    manageSerie();
+                    manageBook();
                     break;
                 case 4:
                     break;
@@ -62,7 +64,7 @@ public class Main {
 
     static void manageMovies() {
         System.out.println("Movie");
-        System.out.println("1. Agregar pelucula");
+        System.out.println("1. Agregar pelicula");
         System.out.println("2. Ver peliculas");
         System.out.println("Seleciona una opcion");
         int option = scanner.nextInt();
@@ -153,10 +155,8 @@ public class Main {
         System.out.print("Ingresa: el genero de la Serie: ");
         String genre = scanner.nextLine();
 
-
         System.out.print("Ingresa la duracion en minutos: ");
         int duration = scanner.nextInt();
-
 
         // Crear una nueva instancia de Movie
         serie serie = new serie(title, genre, duration);
@@ -180,6 +180,49 @@ public class Main {
                 System.out.println("----------------------");
             }
         }
+    }
+
+    static void manageBook() {
+        System.out.println("Book");
+        System.out.println("1. Agregar libro");
+        System.out.println("2. Ver libro");
+        System.out.println("Seleciona una opcion");
+        int option = scanner.nextInt();
+
+        switch (option) {
+            case 1:
+                addBook();
+                break;
+            case 2:
+                viewBook();
+                break;
+            default:
+
+                System.out.println("Invalid option.");
+                break;
+        }
+    }
+
+    private static void addBook() {
+        System.out.print("ingre: ");
+        String title = scanner.nextLine();
+
+        System.out.print("Enter book genre: ");
+        String editorialDate;
+        editorialDate = scanner.nextLine();
+
+        System.out.print("Enter book creator: ");
+        String editorial = scanner.nextLine();
+
+        System.out.print("Enter movie duration (in minutes): ");
+        String isbn = scanner.nextLine();
+
+        // Crear una nueva instancia de Movie
+        movie movie = new movie(title, editorialDate, creator, duration, (short) year);
+
+        // Agregar la película a la lista
+        movies.add(movie);
+        System.out.println("Movie added successfully!");
     }
 
 }
