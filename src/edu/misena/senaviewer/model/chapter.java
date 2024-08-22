@@ -39,6 +39,4 @@ public class chapter {
         this.duration = duration;
 }
 
-
-
 }
