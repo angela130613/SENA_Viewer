@@ -326,6 +326,37 @@ public class Main {
         }
     }
 
+    private static void addChapter() {
+        System.out.print("Ingresar el titulo del capitulo: ");
+        String title =
+                title = scanner.nextLine();
+
+        System.out.print("Enter movie duration (in minutes): ");
+        int duration = scanner.nextInt();
+
+        System.out.print("Enter movie year: ");
+        int year = scanner.nextInt();
+        scanner.nextLine(); // Consumir la nueva línea
+
+        System.out.print("Ingresar si se vio el capitulo: ");
+        boolean viewed = scanner.nextBoolean();
+
+       System.out.println("Ingrese la cantidad de tiempo visto en minutos: ");
+       int timeViewed = scanner.nextInt();
+
+       System.out.println("Ingrese la temporada del capitulo: ");
+        int sessionNumber = scanner.nextInt();
+
+        // Crear una nueva instancia de Movie
+        chapter chapter = new chapter(title, duration, year);
+
+        // Agregar la película a la lista
+        chapters.add(chapter);
+        System.out.println("Movie added successfully!");
+    }
+
+
+
 
 }
 

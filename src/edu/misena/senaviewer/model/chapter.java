@@ -15,6 +15,7 @@ public class chapter {
         this.year = year;
         this.viewed = true;
         this.timeViwed = 0;
+        this.sessionNumber = 1;
     }
 
     public int getId() {
