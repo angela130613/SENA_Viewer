@@ -328,10 +328,10 @@ public class Main {
 
     private static void addChapter() {
         System.out.print("Ingresar el titulo del capitulo: ");
-        String title =
+        String title = scanner.nextLine();
                 title = scanner.nextLine();
 
-        System.out.print("Enter movie duration (in minutes): ");
+        System.out.print("Enter chapter duration (in minutes): ");
         int duration = scanner.nextInt();
 
         System.out.print("Enter movie year: ");
@@ -348,12 +348,30 @@ public class Main {
         int sessionNumber = scanner.nextInt();
 
         // Crear una nueva instancia de Movie
-        chapter chapter = new chapter(title, duration, year);
+        chapter Chapter = new chapter(title, duration, year);
 
         // Agregar la película a la lista
-        chapters.add(chapter);
+        chapters.add(Chapter);
         System.out.println("Movie added successfully!");
     }
+
+
+    private static void viewChapter() {
+        if (chapters.isEmpty()) {
+            System.out.println("Peliculas no encontradas.");
+        } else {
+            for (chapter Chapter : chapters) {
+                System.out.println("ID: " + chapter.getId());
+                System.out.println("Titulo: " + chapter.getTitle());
+                System.out.println("Duracion: " + chapter.getDuration() + " minutos");
+                System.out.println("Año: " + chapter.getYear());
+                System.out.println("Visto: " + (chapter.isViewed()? "Si" : "No"));
+                System.out.println("Tiempo Visto: " + chapter.getTimeViewed() + " minutos");
+                System.out.println("----------------------");
+            }
+}
+    }
+
 
 
 

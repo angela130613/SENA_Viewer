@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="  private static void viewMagazine">
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment=" private static void addChapter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/chapter.java" afterDir="false" />
@@ -65,22 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
-    </task>
-    <task id="LOCAL-00010" summary="import java.util.Date and editorialDate">
-      <option name="closed" value="true" />
-      <created>1723905520363</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1723905520363</updated>
-    </task>
-    <task id="LOCAL-00011" summary="String editorial">
-      <option name="closed" value="true" />
-      <created>1723905577417</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1723905577417</updated>
     </task>
     <task id="LOCAL-00012" summary="List&lt;String&gt; and import java.util.List">
       <option name="closed" value="true" />
@@ -458,12 +442,26 @@
       <option name="project" value="LOCAL" />
       <updated>1724334372932</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary=" static void manageMovies">
+      <option name="closed" value="true" />
+      <created>1724336708930</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1724336708930</updated>
+    </task>
+    <task id="LOCAL-00060" summary=" private static void addChapter">
+      <option name="closed" value="true" />
+      <created>1724337893712</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1724337893712</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="case3" />
-    <MESSAGE value="case4" />
     <MESSAGE value="case5" />
     <MESSAGE value="case6" />
     <MESSAGE value="case0" />
@@ -487,6 +485,8 @@
     <MESSAGE value="static void manageMagazine" />
     <MESSAGE value=" private static void addMagazine" />
     <MESSAGE value="  private static void viewMagazine" />
-    <option name="LAST_COMMIT_MESSAGE" value="  private static void viewMagazine" />
+    <MESSAGE value=" static void manageMovies" />
+    <MESSAGE value=" private static void addChapter" />
+    <option name="LAST_COMMIT_MESSAGE" value=" private static void addChapter" />
   </component>
 </project>

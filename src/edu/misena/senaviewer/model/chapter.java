@@ -1,12 +1,12 @@
 package edu.misena.senaviewer.model;
 
 public class chapter {
-    int id;
-    String title;
-    int duration;
-    int year;
+    static int id;
+    static String title;
+    static int duration;
+    static int year;
     boolean viewed;
-    int timeViwed;
+    static int timeViwed;
     int sessionNumber;
 
     public  chapter(String tittle, int duration, int year){
@@ -18,28 +18,48 @@ public class chapter {
         this.sessionNumber = 1;
     }
 
-    public int getId() {
+    public static boolean getGenre() {
+        return true;
+    }
+
+    public static int getId() {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public static boolean isViewed() {
+        return true;
     }
 
-    public String getTitle(){
+    public static int getTimeViewed() {
+        return timeViwed;
+    }
+
+    public void setId(int id) {
+        chapter.id = id;
+    }
+
+    public static String getTitle(){
         return title;
     }
 
     public void setTitle(String title){
-        this.title = title;
+        chapter.title = title;
     }
 
-    public int getDuration(){
+    public static int getDuration(){
         return duration;
     }
 
     public void setDuration(int duration){
-        this.duration = duration;
+        chapter.duration = duration;
 }
+
+    public static int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        chapter.year = year;
+    }
 
 }
