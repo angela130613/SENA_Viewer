@@ -1,4 +1,5 @@
 import edu.misena.senaviewer.model.book;
+import edu.misena.senaviewer.model.magazine;
 import edu.misena.senaviewer.model.movie;
 import edu.misena.senaviewer.model.serie;
 
@@ -11,7 +12,8 @@ import java.util.Scanner;
 public class Main {
     static List<movie> movies = new ArrayList<>();
     static List<serie> series = new ArrayList<>();
-    static List<book> books = new ArrayList<book>();
+    static List<book> books = new ArrayList<>();
+    static List<magazine> magazines = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -33,6 +35,7 @@ public class Main {
                     manageBook();
                     break;
                 case 4:
+                    manageMagazine();
                     break;
                 case 5:
                     break;
@@ -49,6 +52,7 @@ public class Main {
         scanner.close();
 
     }
+
 
     static void showMainMenu() {
         System.out.println("Main Menu:");
@@ -240,6 +244,27 @@ public class Main {
                 System.out.println("Visto: " + (book.getViewed() ? "Si" : "No"));
                 System.out.println("----------------------");
             }
+        }
+    }
+
+    static void manageMagazine() {
+        System.out.println("Revistas");
+        System.out.println("1. Agregar nombre de revista");
+        System.out.println("2. Ver revista");
+        System.out.println("Seleciona una opcion");
+        int option = scanner.nextInt();
+
+        switch (option) {
+            case 1:
+                addMagazine();
+                break;
+            case 2:
+                viewMagazine();
+                break;
+            default:
+
+                System.out.println("Invalid option.");
+                break;
         }
     }
 
