@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment=" private static void addMagazine">
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="  private static void viewMagazine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/chapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +65,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
-    </task>
-    <task id="LOCAL-00009" summary="public class magazine">
-      <option name="closed" value="true" />
-      <created>1723905448807</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1723905448807</updated>
     </task>
     <task id="LOCAL-00010" summary="import java.util.Date and editorialDate">
       <option name="closed" value="true" />
@@ -457,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1724333677903</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="  private static void viewMagazine">
+      <option name="closed" value="true" />
+      <created>1724334372932</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1724334372932</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="case2" />
     <MESSAGE value="case3" />
     <MESSAGE value="case4" />
     <MESSAGE value="case5" />
@@ -486,6 +486,7 @@
     <MESSAGE value="." />
     <MESSAGE value="static void manageMagazine" />
     <MESSAGE value=" private static void addMagazine" />
-    <option name="LAST_COMMIT_MESSAGE" value=" private static void addMagazine" />
+    <MESSAGE value="  private static void viewMagazine" />
+    <option name="LAST_COMMIT_MESSAGE" value="  private static void viewMagazine" />
   </component>
 </project>

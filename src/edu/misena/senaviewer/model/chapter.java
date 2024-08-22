@@ -13,6 +13,8 @@ public class chapter {
         this.title = tittle;
         this.duration = duration;
         this.year = year;
+        this.viewed = true;
+        this.timeViwed = 0;
     }
 
     public int getId() {

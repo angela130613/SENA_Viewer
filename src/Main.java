@@ -1,7 +1,4 @@
-import edu.misena.senaviewer.model.book;
-import edu.misena.senaviewer.model.magazine;
-import edu.misena.senaviewer.model.movie;
-import edu.misena.senaviewer.model.serie;
+import edu.misena.senaviewer.model.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,6 +11,7 @@ public class Main {
     static List<serie> series = new ArrayList<>();
     static List<book> books = new ArrayList<>();
     static List<magazine> magazines = new ArrayList<>();
+    static List<chapter> chapters = new ArrayList<>();
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -38,8 +36,11 @@ public class Main {
                     manageMagazine();
                     break;
                 case 5:
+                    manageChapter();
                     break;
                 case 6:
+                    break;
+                case 7:
                     break;
                 case 0:
                     System.out.println("Saliste de la aplicacion");
@@ -60,8 +61,9 @@ public class Main {
         System.out.println("2. Series");
         System.out.println("3. Books");
         System.out.println("4. Magazines");
-        System.out.println("5. Report");
-        System.out.println("6. Report Today");
+        System.out.println("5. Chapter");
+        System.out.println("6. Report");
+        System.out.println("7. Report Today");
         System.out.println("0. Exit");
         System.out.print("Select an option: ");
     }
@@ -300,6 +302,27 @@ public class Main {
                 System.out.println("Visto: " + (magazine.getViewed() ? "Si" : "No"));
                 System.out.println("----------------------");
             }
+        }
+    }
+
+    static void manageChapter() {
+        System.out.println("Chapter");
+        System.out.println("1. Agregar capitulo");
+        System.out.println("2. Ver capitulo");
+        System.out.println("Seleciona una opcion");
+        int option = scanner.nextInt();
+
+        switch (option) {
+            case 1:
+                addChapter();
+                break;
+            case 2:
+                viewChapter();
+                break;
+            default:
+
+                System.out.println("Invalid option.");
+                break;
         }
     }
 
