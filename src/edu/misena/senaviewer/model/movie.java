@@ -16,7 +16,7 @@ package edu.misena.senaviewer.model;
             this.creator = creator;
             this.duracion = duracion;
             this.year = year;
-            this.viewed = false;
+            this.viewed = true;
             this.timeviwed = 0;
         }
 

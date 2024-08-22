@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="static void manageMagazine" />
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment=" private static void addMagazine">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,14 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
-    </task>
-    <task id="LOCAL-00008" summary="public class book">
-      <option name="closed" value="true" />
-      <created>1723905112336</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1723905112336</updated>
     </task>
     <task id="LOCAL-00009" summary="public class magazine">
       <option name="closed" value="true" />
@@ -454,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1724333107387</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary=" private static void addMagazine">
+      <option name="closed" value="true" />
+      <created>1724333677903</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1724333677903</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="case1" />
     <MESSAGE value="case2" />
     <MESSAGE value="case3" />
     <MESSAGE value="case4" />
@@ -483,6 +485,7 @@
     <MESSAGE value="chapter get and set" />
     <MESSAGE value="." />
     <MESSAGE value="static void manageMagazine" />
-    <option name="LAST_COMMIT_MESSAGE" value="static void manageMagazine" />
+    <MESSAGE value=" private static void addMagazine" />
+    <option name="LAST_COMMIT_MESSAGE" value=" private static void addMagazine" />
   </component>
 </project>

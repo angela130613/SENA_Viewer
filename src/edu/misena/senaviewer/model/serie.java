@@ -20,7 +20,7 @@ public class serie {
         }
 
     public static boolean isEmpty() {
-        return false;
+        return true;
     }
 
     public static int getId() {
@@ -103,7 +103,5 @@ public class serie {
         this.sessionQuantity = sessionQuantity;
     }
 
-    public void add(serie serie) {
-    }
 }
 

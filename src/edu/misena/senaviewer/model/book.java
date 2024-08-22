@@ -61,7 +61,7 @@ public class book {
     }
 
     public boolean getViewed() {
-        return false;
+        return true;
     }
 }
 

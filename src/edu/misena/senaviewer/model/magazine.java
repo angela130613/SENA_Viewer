@@ -48,4 +48,7 @@ public class magazine {
         this.editorial = editorial;
     }
 
+    public boolean getViewed() {
+        return true;
+    }
 }

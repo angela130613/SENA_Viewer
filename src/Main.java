@@ -288,6 +288,20 @@ public class Main {
         System.out.println("Revista añadida!!!");
     }
 
+    private static void viewMagazine() {
+        if (magazines.isEmpty()) {
+            System.out.println("Libros no encontradas.");
+        } else {
+            for (magazine magazine : magazines) {
+                System.out.println("ID: " + magazine.getId());
+                System.out.println("Titulo: " + magazine.getTitle());
+                System.out.println("Fecha de Editorial: " + magazine.getEditorialDate());
+                System.out.println("Nombre editorial: " + magazine.getEditorial());
+                System.out.println("Visto: " + (magazine.getViewed() ? "Si" : "No"));
+                System.out.println("----------------------");
+            }
+        }
+    }
 
 
 }
