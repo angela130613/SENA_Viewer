@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment=" private static void addChapter">
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="private static void viewChapter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/chapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +64,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
-    </task>
-    <task id="LOCAL-00012" summary="List&lt;String&gt; and import java.util.List">
-      <option name="closed" value="true" />
-      <created>1723905801159</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1723905801159</updated>
     </task>
     <task id="LOCAL-00013" summary="public magazine">
       <option name="closed" value="true" />
@@ -458,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1724337893712</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="private static void viewChapter">
+      <option name="closed" value="true" />
+      <created>1724340630730</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1724340630730</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="case5" />
     <MESSAGE value="case6" />
     <MESSAGE value="case0" />
     <MESSAGE value="default" />
@@ -487,6 +485,7 @@
     <MESSAGE value="  private static void viewMagazine" />
     <MESSAGE value=" static void manageMovies" />
     <MESSAGE value=" private static void addChapter" />
-    <option name="LAST_COMMIT_MESSAGE" value=" private static void addChapter" />
+    <MESSAGE value="private static void viewChapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="private static void viewChapter" />
   </component>
 </project>
