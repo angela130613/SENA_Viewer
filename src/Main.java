@@ -228,7 +228,7 @@ public class Main {
 
         // Agregar la película a la lista
         books.add(book);
-        System.out.println("Movie added successfully!");
+        System.out.println(" Libro añadido!!!");
     }
 
     private static void viewBook() {
@@ -267,6 +267,28 @@ public class Main {
                 break;
         }
     }
+
+    private static void addMagazine() {
+        System.out.print("Ingresar el titulo de la revista: ");
+        String title = scanner.nextLine();
+        title = scanner.nextLine();
+
+        System.out.print("ingresar fecha del editorial de la revista: ");
+        String editorialDate;
+        editorialDate = scanner.nextLine();
+
+        System.out.print("ingresar el editorial de la revista : ");
+        String editorial = scanner.nextLine();
+
+        // Crear una nueva instancia de Movie
+        magazine magazine  = new magazine(title, editorialDate, editorial);
+
+        // Agregar la película a la lista
+        magazines.add(magazine);
+        System.out.println("Revista añadida!!!");
+    }
+
+
 
 }
 
