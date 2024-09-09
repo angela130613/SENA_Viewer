@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="private static void viewChapter">
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment=" static void generateReport and report">
+      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,11 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/III TRIMESTRE/Navia/SENA_Viewer/src/Main.java&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.misena.senaviewer.model" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,14 +71,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
-    </task>
-    <task id="LOCAL-00013" summary="public magazine">
-      <option name="closed" value="true" />
-      <created>1723906033313</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1723906033313</updated>
     </task>
     <task id="LOCAL-00014" summary="public movie new viewed and timeviwed">
       <option name="closed" value="true" />
@@ -457,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1724340630730</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary=" static void generateReport and report">
+      <option name="closed" value="true" />
+      <created>1724342663778</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1724342663778</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="case6" />
     <MESSAGE value="case0" />
     <MESSAGE value="default" />
     <MESSAGE value="scanner.close" />
@@ -486,6 +492,7 @@
     <MESSAGE value=" static void manageMovies" />
     <MESSAGE value=" private static void addChapter" />
     <MESSAGE value="private static void viewChapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="private static void viewChapter" />
+    <MESSAGE value=" static void generateReport and report" />
+    <option name="LAST_COMMIT_MESSAGE" value=" static void generateReport and report" />
   </component>
 </project>
