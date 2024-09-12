@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="refactorizacion movie and film creacion de clase film">
-      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Publication.java" afterDir="false" />
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="publication, film and magazine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +69,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
-    </task>
-    <task id="LOCAL-00015" summary="public int getId">
-      <option name="closed" value="true" />
-      <created>1723908766710</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1723908766710</updated>
     </task>
     <task id="LOCAL-00016" summary=" public void setId(int id)">
       <option name="closed" value="true" />
@@ -466,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1725884235240</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="publication, film and magazine">
+      <option name="closed" value="true" />
+      <created>1726141801910</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1726141801910</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="default" />
     <MESSAGE value="scanner.close" />
     <MESSAGE value="static void showMainMenu" />
     <MESSAGE value="static void manageMovies" />
@@ -495,6 +490,7 @@
     <MESSAGE value="private static void viewChapter" />
     <MESSAGE value=" static void generateReport and report" />
     <MESSAGE value="refactorizacion movie and film creacion de clase film" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactorizacion movie and film creacion de clase film" />
+    <MESSAGE value="publication, film and magazine" />
+    <option name="LAST_COMMIT_MESSAGE" value="publication, film and magazine" />
   </component>
 </project>

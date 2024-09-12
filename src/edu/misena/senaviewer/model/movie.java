@@ -20,17 +20,17 @@ package edu.misena.senaviewer.model;
             this.timeviwed = timeViewed;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        @Override
+        public String toString() {
+            return "Movie{" +
+                    "id=" + id +
+                    ", title='" + title + '\'' +
+                    ", genre='" + genre + '\'' +
+                    ", creator='" + creator + '\'' +
+                    ", duration=" + duracion +
+                    ", year=" + year +
+                    ", viewed=" + (viewed ? "Yes" : "No") +
+                    ", timeViewed=" + timeviwed + " minutes" +
+                    '}';
+        }
     }
