@@ -43,6 +43,7 @@ public class serie extends Film {
                 ", timeViewed=" + timeViewed + " minutes" +
                 ", sessionQuantity=" + sessionQuantity +
                 '}';
+
     }
 }
 

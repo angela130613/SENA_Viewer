@@ -34,5 +34,16 @@ public class book extends Publication{
     public void setReaded(boolean readed) {
         this.readed = readed;
     }
-
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + getTitle() + '\'' +
+                ", editorialDate='" + getEditorialDate() + '\'' +
+                ", editorial='" + getEditorial() + '\'' +
+                ", isbn='" + isbn + '\'' +
+                ", readed=" + (readed ? "Yes" : "No") +
+                ", timeReaded=" + timeReaded + " minutes" +
+                '}';
+    }
 }
