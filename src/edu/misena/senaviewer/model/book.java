@@ -34,4 +34,5 @@ public class book extends Publication{
     public void setReaded(boolean readed) {
         this.readed = readed;
     }
+
 }

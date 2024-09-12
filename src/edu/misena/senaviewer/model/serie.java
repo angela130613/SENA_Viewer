@@ -30,5 +30,19 @@ public class serie extends Film {
         this.sessionQuantity = sessionQuantity;
     }
 
+    @Override
+    public String toString() {
+        return "Serie{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", genre='" + genre + '\'' +
+                ", creator='" + creator + '\'' +
+                ", duration=" + duracion +
+                ", year=" + year +
+                ", viewed=" + (viewed ? "Yes" : "No") +
+                ", timeViewed=" + timeViewed + " minutes" +
+                ", sessionQuantity=" + sessionQuantity +
+                '}';
+    }
 }
 
