@@ -18,4 +18,14 @@ public class magazine extends Publication{
     public boolean getRead() {
         return true;
     }
+    @Override
+    public String toString() {
+        return "Magazine{" +
+                "id=" + id +
+                ", title='" + getTitle() + '\'' +
+                ", editorialDate='" + getEditorialDate() + '\'' +
+                ", editorial='" + getEditorial() + '\'' +
+                ", read=" + (getRead() ? "Yes" : "No") +
+                '}';
+    }
 }

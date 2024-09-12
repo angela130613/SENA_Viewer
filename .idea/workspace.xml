@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="publication, film and magazine">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/movie.java" afterDir="false" />
+    <list default="true" id="2f5084f7-a381-45d5-8b18-54a499fe9598" name="Changes" comment="to string book">
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,38 +68,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723730773278</updated>
-    </task>
-    <task id="LOCAL-00016" summary=" public void setId(int id)">
-      <option name="closed" value="true" />
-      <created>1723908814049</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1723908814049</updated>
-    </task>
-    <task id="LOCAL-00017" summary="  public String getTitle()">
-      <option name="closed" value="true" />
-      <created>1723908888258</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1723908888258</updated>
-    </task>
-    <task id="LOCAL-00018" summary=" new public String getTitle">
-      <option name="closed" value="true" />
-      <created>1723908959403</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1723908959403</updated>
-    </task>
-    <task id="LOCAL-00019" summary=" public void setTitle(String title)">
-      <option name="closed" value="true" />
-      <created>1723909005962</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1723909005962</updated>
     </task>
     <task id="LOCAL-00020" summary="  public String getGenre">
       <option name="closed" value="true" />
@@ -462,13 +429,42 @@
       <option name="project" value="LOCAL" />
       <updated>1726141801910</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="to string movie">
+      <option name="closed" value="true" />
+      <created>1726148881671</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1726148881671</updated>
+    </task>
+    <task id="LOCAL-00066" summary="to string book">
+      <option name="closed" value="true" />
+      <created>1726148972673</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1726148972673</updated>
+    </task>
+    <task id="LOCAL-00067" summary="to string serie">
+      <option name="closed" value="true" />
+      <created>1726149014473</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1726149014473</updated>
+    </task>
+    <task id="LOCAL-00068" summary="to string book">
+      <option name="closed" value="true" />
+      <created>1726149077622</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1726149077622</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="scanner.close" />
-    <MESSAGE value="static void showMainMenu" />
-    <MESSAGE value="static void manageMovies" />
     <MESSAGE value="static void and static private void" />
     <MESSAGE value=" private static void viewMovies" />
     <MESSAGE value="serie public void, setters and getters" />
@@ -491,6 +487,9 @@
     <MESSAGE value=" static void generateReport and report" />
     <MESSAGE value="refactorizacion movie and film creacion de clase film" />
     <MESSAGE value="publication, film and magazine" />
-    <option name="LAST_COMMIT_MESSAGE" value="publication, film and magazine" />
+    <MESSAGE value="to string movie" />
+    <MESSAGE value="to string serie" />
+    <MESSAGE value="to string book" />
+    <option name="LAST_COMMIT_MESSAGE" value="to string book" />
   </component>
 </project>
