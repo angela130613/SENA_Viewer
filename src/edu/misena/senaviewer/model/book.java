@@ -45,5 +45,7 @@ public class book extends Publication{
                 ", readed=" + (readed ? "Yes" : "No") +
                 ", timeReaded=" + timeReaded + " minutes" +
                 '}';
+
+
     }
 }
