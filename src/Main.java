@@ -128,7 +128,7 @@ public class Main {
                 System.out.println("Creador: " + Movie.getCreator());
                 System.out.println("Duracion: " + Movie.getDuration() + " minutos");
                 System.out.println("Año: " + Movie.getYear());
-                System.out.println("Visto: " + (Movie.isViewed() ? "Si" : "No"));
+                System.out.println("Visto: " + (Movie.getViewed()? "Si" : "No"));
                 System.out.println("Tiempo Visto: " + Movie.getTimeViewed() + " minutos");
                 System.out.println("----------------------");
             }
@@ -168,10 +168,10 @@ public class Main {
         int duration = scanner.nextInt();
 
         // Crear una nueva instancia de Movie
-        serie serie = new serie(title, genre, duration);
+        serie Serie = new serie(title, genre, duration);
 
         // Agregar la película a la lista
-        series.add(serie);
+        series.add(Serie);
         System.out.println("Serie añadida!!!!");
     }
 
@@ -180,11 +180,11 @@ public class Main {
             System.out.println("Series no encontradas.");
         } else {
             for (serie Serie : series) {
-                System.out.println("ID: " + serie.getId());
-                System.out.println("Titulo: " + serie.getTitle());
-                System.out.println("Genero: " + serie.getGenre());
-                System.out.println("Duracion: " + serie.getDuration() + " minutos");
-                System.out.println("Visto: " + (serie.isViewed() ? "Si" : "No"));
+                System.out.println("ID: " + Serie.getId());
+                System.out.println("Titulo: " + Serie.getTitle());
+                System.out.println("Genero: " + Serie.getGenre());
+                System.out.println("Duracion: " + Serie.getDuration() + " minutos");
+                System.out.println("Visto: " + (Serie.getViewed() ? "Si" : "No"));
                 System.out.println("Tiempo Visto: " + serie.getTimeViewed() + " minutos");
                 System.out.println("----------------------");
             }
@@ -245,7 +245,7 @@ public class Main {
                 System.out.println("Fecha de Editorial: " + book.getEditorialDate());
                 System.out.println("Nombre editorial: " + book.getEditorial());
                 System.out.println("isbn: " + book.getIsbn() );
-                System.out.println("Visto: " + (book.getViewed() ? "Si" : "No"));
+                System.out.println("Visto: " + (book.getReaded() ? "Si" : "No"));
                 System.out.println("----------------------");
             }
         }
@@ -301,7 +301,7 @@ public class Main {
                 System.out.println("Titulo: " + magazine.getTitle());
                 System.out.println("Fecha de Editorial: " + magazine.getEditorialDate());
                 System.out.println("Nombre editorial: " + magazine.getEditorial());
-                System.out.println("Visto: " + (magazine.getViewed() ? "Si" : "No"));
+                System.out.println("Visto: " + (magazine.getRead() ? "Si" : "No"));
                 System.out.println("----------------------");
             }
         }
