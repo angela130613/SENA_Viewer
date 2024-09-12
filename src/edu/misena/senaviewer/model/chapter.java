@@ -62,4 +62,17 @@ public class chapter {
         chapter.year = year;
     }
 
+    @Override
+    public String toString() {
+        return "Chapter{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", duration=" + duration +
+                ", year=" + year +
+                ", viewed=" + (viewed ? "Yes" : "No") +
+                ", timeViewed=" + timeViwed + " minutes" +
+                ", sessionNumber=" + sessionNumber +
+                '}';
+    }
+
 }
