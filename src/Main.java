@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
+// En esta seccion las implementaciones de las colecciones usando los Atrray List
 
 public class Main {
     static List<movie> movies = new ArrayList<>();
@@ -69,6 +69,7 @@ public class Main {
         System.out.println("0. Exit");
         System.out.print("Select an option: ");
     }
+
 
     static void manageMovies() {
         System.out.println("Movie");
